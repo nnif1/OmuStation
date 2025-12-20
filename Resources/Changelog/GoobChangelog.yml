@@ -19444,7 +19444,7 @@ Entries:
       message: >-
         Oni can again damage peoples stam so you don't just get to escape.
         Removed accuracy nonsense again - Oni's should not be able to use most,
-        if not all guns. 
+        if not all guns.
   id: 2202
   time: '2025-12-18T23:26:35.0000000+00:00'
 - author: Ilya246
@@ -19505,7 +19505,7 @@ Entries:
       message: >-
         Added new job "Radio host" they host a the stations local radiostation
         and play music and report of stuff around the station, this isn't mapped
-        yet but should be soon! 
+        yet but should be soon!
     - type: Add
       message: Added "vinyl player" it plays vinyls!
   id: 2211
@@ -19552,5 +19552,13 @@ Entries:
   changes:
     - type: Add
       message: New 5 Biogenerator recipes.
-  id: 2218
-  time: '2025-12-20T08:42:42.0000000+00:00'
+  id: 2219
+  time: '2025-12-20T08:42:59.0000000+00:00'
+- author: SPCR
+  changes:
+    - type: Tweak
+      message: >-
+        Increases changeling armblade damage from 15 to 20 slashl. as it was
+        before.
+  id: 2220
+  time: '2025-12-20T08:43:22.0000000+00:00'
