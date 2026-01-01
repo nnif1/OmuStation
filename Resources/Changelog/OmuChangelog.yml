@@ -1649,3 +1649,9 @@ Entries:
       message: Virologists Plasmaman now have the envirosuits in their loadout.
   id: 200
   time: '2026-01-01T14:12:13.0000000+00:00'
+- author: Richard Blonski
+  changes:
+    - type: Tweak
+      message: Replaced the pink slime weh juice with Genderfluid.
+  id: 201
+  time: '2026-01-01T15:49:38.0000000+00:00'
