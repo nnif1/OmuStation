@@ -491,16 +491,10 @@ public sealed partial class PolymorphSystem : EntitySystem
         {
             foreach (var data in configuration.ComponentsToTransfer)
             {
-                Type type;
-                try
-                {
-                    type = _compFact.GetRegistration(data.Component).Type;
-                }
-                catch (UnknownComponentException e)
-                {
-                    Log.Error(e.Message);
+                if (!_compFact.TryGetRegistration(data.Component, out var registration))
                     continue;
-                }
+
+                var type = registration.Type;
 
                 if (!EntityManager.TryGetComponent(uid, type, out var component))
                     continue;
