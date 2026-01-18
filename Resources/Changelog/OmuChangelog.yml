@@ -1825,3 +1825,9 @@ Entries:
       message: ported some clothes from EE
   id: 226
   time: '2026-01-18T15:29:42.0000000+00:00'
+- author: raincally
+  changes:
+    - type: Tweak
+      message: 'The RCDs can now build WATER (and remove it) '
+  id: 227
+  time: '2026-01-18T20:38:26.0000000+00:00'
