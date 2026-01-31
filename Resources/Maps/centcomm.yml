@@ -51,6 +51,8 @@ entities:
     components:
     - type: MetaData
       name: Central Command
+    - type: Transform
+      parent: invalid
     - type: MapGrid
       chunks:
         -1,-1:
@@ -20750,16 +20752,7 @@ entities:
     - type: Physics
       canCollide: True
     - type: Door
-      secondsUntilStateChange: -13698.61
-      state: Closing
-- proto: CurtainsOrangeOpen
-  entities:
-  - uid: 542
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -9.5,-28.5
-      parent: 1668
+      state: Closed
 - proto: DecalSpawnerBloodSplatters
   entities:
   - uid: 68
@@ -28610,22 +28603,12 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 15.283483,5.6325054
       parent: 1668
-- proto: PlushieSamantha
-  entities:
-  - uid: 2910
-    components:
-    - type: Transform
-      pos: 25.502684,8.711456
-      parent: 1668
-    - type: Physics
-      angularDamping: 0
-      linearDamping: 0
 - proto: PlushieTheHolyCrusader
   entities:
-  - uid: 6530
+  - uid: 1344
     components:
     - type: Transform
-      pos: 23.500582,6.6679215
+      pos: 23.435144,7.6474366
       parent: 1668
 - proto: PlushieXeve
   entities:
