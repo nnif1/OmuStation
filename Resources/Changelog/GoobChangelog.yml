@@ -20270,7 +20270,7 @@ Entries:
     - type: Add
       message: >-
         Warning, entering biological dead zone at 2000m from the station.
-        Unknown large life signatures detected. 
+        Unknown large life signatures detected.
   id: 2304
   time: '2026-01-27T02:29:05.0000000+00:00'
 - author: OnsenCapy
@@ -20904,3 +20904,9 @@ Entries:
       message: contractor baton recolor
   id: 2371
   time: '2026-02-01T05:27:06.0000000+00:00'
+- author: Beanyboi69
+  changes:
+    - type: Remove
+      message: Entirely removed Submarine station.
+  id: 2373
+  time: '2026-02-02T06:08:58.0000000+00:00'
