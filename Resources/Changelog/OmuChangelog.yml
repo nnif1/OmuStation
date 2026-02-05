@@ -1909,3 +1909,9 @@ Entries:
         slash)
   id: 238
   time: '2026-02-05T19:12:02.0000000+00:00'
+- author: Dishwasher0
+  changes:
+    - type: Fix
+      message: Delta now has shaft miners
+  id: 239
+  time: '2026-02-05T20:26:52.0000000+00:00'
