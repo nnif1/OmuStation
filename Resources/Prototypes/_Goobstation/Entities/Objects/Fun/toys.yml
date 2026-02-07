@@ -751,6 +751,12 @@
   - type: Sprite
     sprite: _Goobstation/Objects/Fun/toys.rsi
     state: plushie_holy
+  - type: Clothing
+    quickEquip: true
+    sprite: _Goobstation/Objects/Fun/toys.rsi
+    equippedPrefix: plushieholy
+    slots:
+    - HEAD
   - type: EmitSoundOnPickup
     sound:
       path: /Audio/Effects/holy.ogg
@@ -938,23 +944,6 @@
   id: EvilPlushieLouie
   suffix: Evil
 
-# Omu start - We dont have these, and it causes test fails, so this is what will be done.
-- type: entity
-  name: Grug plush
-  parent: PlushieMnwaar
-  id: PlushieWachtel
-
-- type: entity
-  name: Leguia plush
-  parent: PlushieMnwaar
-  id: PlushieLeguia
-
-- type: entity
-  name: Pasha plush
-  parent: PlushieMnwaar
-  id: PlushiePasha
-# Omu end
-
 - type: entity
   name: evil Grug plush
   parent: PlushieWachtel
@@ -972,3 +961,27 @@
   parent: PlushiePasha
   id: EvilPlushiePasha
   suffix: Evil
+
+
+- type: entity
+  parent: BaseItem
+  id: ToyBladeEldritch
+  name: toy blade
+  description: A plastic yellow crescent blade, decorated with an ornamental eye. You feel like you're being watched...
+  components:
+  - type: Sprite
+    sprite: _Goobstation/Heretic/Blades/eldrich_blade-toy.rsi
+    state: icon
+  - type: MeleeWeapon
+    attackRate: 1.5
+    wideAnimationRotation: -125
+    damage:
+      types:
+        Blunt: 0
+    soundHit:
+      path: /Audio/Weapons/bladeslice.ogg
+  - type: Item
+    size: Small
+    sprite: _Goobstation/Heretic/Blades/eldrich_blade-toy-inhands.rsi
+
+
