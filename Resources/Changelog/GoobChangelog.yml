@@ -21120,3 +21120,9 @@ Entries:
       message: Interacting on a crawling person no longer permastuns them.
   id: 2403
   time: '2026-02-12T11:54:46.0000000+00:00'
+- author: NotActuallyMarty
+  changes:
+    - type: Fix
+      message: Cryopod no longer kills client.
+  id: 2405
+  time: '2026-02-12T17:23:05.0000000+00:00'
