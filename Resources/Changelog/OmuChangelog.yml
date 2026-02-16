@@ -1969,3 +1969,13 @@ Entries:
         ballistic turrets.
   id: 247
   time: '2026-02-15T21:30:09.0000000+00:00'
+- author: CliveOcelot
+  changes:
+    - type: Tweak
+      message: Chester has been reverted back into a rifle.
+    - type: Tweak
+      message: >-
+        9.5mm has been nerfed, it now is 16 damage instead of 25, but no longer
+        has negative AP.
+  id: 248
+  time: '2026-02-16T07:21:28.0000000+00:00'
