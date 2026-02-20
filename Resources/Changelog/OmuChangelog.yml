@@ -2048,3 +2048,9 @@ Entries:
       message: Resomi and Avali now share a collective mind, this is on +n
   id: 256
   time: '2026-02-20T11:49:34.0000000+00:00'
+- author: madeline2323
+  changes:
+    - type: Tweak
+      message: amended metashield, crew know more and command has more freedom
+  id: 257
+  time: '2026-02-20T12:34:25.0000000+00:00'
