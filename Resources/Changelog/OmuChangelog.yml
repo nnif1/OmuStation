@@ -2060,3 +2060,9 @@ Entries:
       message: Ported Chimera (admin only for now)
   id: 258
   time: '2026-02-20T21:06:11.0000000+00:00'
+- author: harryhulse12-alt
+  changes:
+    - type: Tweak
+      message: Chimera tweaks
+  id: 259
+  time: '2026-02-21T19:58:06.0000000+00:00'
