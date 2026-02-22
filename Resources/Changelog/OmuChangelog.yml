@@ -2066,3 +2066,9 @@ Entries:
       message: Chimera tweaks
   id: 259
   time: '2026-02-21T19:58:06.0000000+00:00'
+- author: PhosphateWithManyOs
+  changes:
+    - type: Add
+      message: 'PORT: Saving and Loading Hand Labeler Labels'
+  id: 260
+  time: '2026-02-22T06:23:36.0000000+00:00'
