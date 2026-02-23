@@ -2106,3 +2106,9 @@ Entries:
       message: Limited Rust walkers to 5, go play flesh if you want a swarm
   id: 265
   time: '2026-02-23T17:00:11.0000000+00:00'
+- author: madcaker
+  changes:
+    - type: Add
+      message: Paramedic mantles! A variant of medical mantles that includes internals.
+  id: 266
+  time: '2026-02-23T17:00:48.0000000+00:00'
