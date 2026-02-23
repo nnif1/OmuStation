@@ -2144,3 +2144,9 @@ Entries:
       message: small trait maximum weight raised 40 kg -> 53kg
   id: 269
   time: '2026-02-23T19:44:53.0000000+00:00'
+- author: EidolonForgery
+  changes:
+    - type: Add
+      message: The Welles (Shaken, not Stirred)
+  id: 270
+  time: '2026-02-23T19:46:40.0000000+00:00'
