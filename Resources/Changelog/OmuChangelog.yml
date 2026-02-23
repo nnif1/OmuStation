@@ -2122,3 +2122,19 @@ Entries:
         access. (Mining shuttle still is free to access for anyone).
   id: 267
   time: '2026-02-23T17:06:05.0000000+00:00'
+- author: PhosphateWithManyOs
+  changes:
+    - type: Add
+      message: Senior Chemistry Clothing
+    - type: Add
+      message: Veteran Corpsman Clothing
+    - type: Add
+      message: Vanity Beakers
+    - type: Add
+      message: Golden Labeller to throw at corpsmen that walk into the chembay
+    - type: Add
+      message: >-
+        BSO, chemistry and medisec eyepatches. (Only the chem ones are available
+        in loadout)
+  id: 268
+  time: '2026-02-23T19:43:30.0000000+00:00'
