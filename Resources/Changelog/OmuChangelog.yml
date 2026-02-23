@@ -2159,3 +2159,9 @@ Entries:
         cant tell anyone
   id: 271
   time: '2026-02-23T19:48:28.0000000+00:00'
+- author: Aureu
+  changes:
+    - type: Tweak
+      message: Space Dragon will no longer delete itself
+  id: 272
+  time: '2026-02-23T19:52:04.0000000+00:00'
