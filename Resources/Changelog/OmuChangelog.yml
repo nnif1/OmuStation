@@ -2112,3 +2112,13 @@ Entries:
       message: Paramedic mantles! A variant of medical mantles that includes internals.
   id: 266
   time: '2026-02-23T17:00:48.0000000+00:00'
+- author: CliveOcelot
+  changes:
+    - type: Tweak
+      message: Changed access requirement on the Anomaly generator to RD access.
+    - type: Tweak
+      message: >-
+        Cargo, Salv, and Syndie shuttle consoles now require their related
+        access. (Mining shuttle still is free to access for anyone).
+  id: 267
+  time: '2026-02-23T17:06:05.0000000+00:00'
