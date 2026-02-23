@@ -2138,3 +2138,9 @@ Entries:
         in loadout)
   id: 268
   time: '2026-02-23T19:43:30.0000000+00:00'
+- author: raincall
+  changes:
+    - type: Tweak
+      message: small trait maximum weight raised 40 kg -> 53kg
+  id: 269
+  time: '2026-02-23T19:44:53.0000000+00:00'
