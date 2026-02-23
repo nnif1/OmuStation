@@ -2100,3 +2100,9 @@ Entries:
       message: Surgery Trait to the BSO
   id: 264
   time: '2026-02-23T16:06:07.0000000+00:00'
+- author: harryhulse12-alt
+  changes:
+    - type: Tweak
+      message: Limited Rust walkers to 5, go play flesh if you want a swarm
+  id: 265
+  time: '2026-02-23T17:00:11.0000000+00:00'
