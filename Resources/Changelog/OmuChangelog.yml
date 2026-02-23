@@ -2165,3 +2165,11 @@ Entries:
       message: Space Dragon will no longer delete itself
   id: 272
   time: '2026-02-23T19:52:04.0000000+00:00'
+- author: Gab
+  changes:
+    - type: Add
+      message: >-
+        Added 4 new PDAs in the loadout menu for HoP, Cap, BSO and NTR. Expect
+        some more in the near future.
+  id: 273
+  time: '2026-02-23T19:57:11.0000000+00:00'
