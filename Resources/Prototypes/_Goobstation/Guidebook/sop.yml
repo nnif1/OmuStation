@@ -116,7 +116,7 @@
   - ChiefEngineerSOP
   - QuartermasterSOP
   - CommandTrainingManual # Omu
-  - Administrative Assistant SOP # Omu
+  - AdministrativeAssistantSOP # Omu
 - type: guideEntry
   id: EngineeringSOP
   name: guide-entry-sop-engineering
@@ -146,11 +146,10 @@
   name: guide-entry-sop-security
   text: "/ServerInfo/_Goobstation/Guidebook/SoP/Jobs/Security/SecuritySOP.xml"
   children:
-  - BrigmedicSOP
+  # - BrigmedicSOP # Omu - rename Brigmedic to Corpsman
   - WardenSOP
   - OfficerCadetSOP
   - DetectiveSOP
-  # - BrigmedicSOP # Omu - rename Brigmedic to Corpsman
   - SecurityTrainingManual # Omu
   - CorpsmanSOP # Omu - rename Brigmedic to Corpsman
 
@@ -369,7 +368,7 @@
   text: "/ServerInfo/_Goobstation/Guidebook/SoP/Jobs/Command/QuartermasterSOP.xml"
 
 - type: guideEntry # Omu
-  id: Administrative Assistant SOP
+  id: AdministrativeAssistantSOP
   name: guide-entry-sop-aa
   text: "/ServerInfo/_Goobstation/Guidebook/SoP/Jobs/Command/AdministrativeAssistant.xml"
 

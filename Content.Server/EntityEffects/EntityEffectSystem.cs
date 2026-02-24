@@ -24,6 +24,7 @@ using Content.Server.Traits.Assorted;
 using Content.Server.Zombies;
 using Content.Shared._EinsteinEngines.Language.Components;
 using Content.Shared._EinsteinEngines.Language.Systems;
+using Content.Shared._Mono.EntityEffects.Effects;
 using Content.Shared._Shitmed.Medical.Surgery.Wounds.Systems;
 using Content.Shared.Atmos;
 using Content.Shared.Audio;
@@ -49,6 +50,7 @@ using Robust.Shared.Random;
 
 using TemperatureCondition = Content.Shared.EntityEffects.EffectConditions.Temperature; // disambiguate the namespace
 using PolymorphEffect = Content.Shared.EntityEffects.Effects.Polymorph;
+using RevertPolymorphEffect = Content.Shared._Mono.EntityEffects.Effects.RevertPolymorph; // Omu
 
 namespace Content.Server.EntityEffects;
 
@@ -129,6 +131,7 @@ public sealed class EntityEffectSystem : EntitySystem
         SubscribeLocalEvent<ExecuteEntityEffectEvent<PlantMutateHarvest>>(OnExecutePlantMutateHarvest);
         SubscribeLocalEvent<ExecuteEntityEffectEvent<PlantSpeciesChange>>(OnExecutePlantSpeciesChange);
         SubscribeLocalEvent<ExecuteEntityEffectEvent<PolymorphEffect>>(OnExecutePolymorph);
+        SubscribeLocalEvent<ExecuteEntityEffectEvent<RevertPolymorphEffect>>(OnExecuteRevertPolymorph); // Omu
         SubscribeLocalEvent<ExecuteEntityEffectEvent<ResetNarcolepsy>>(OnExecuteResetNarcolepsy);
     }
 
@@ -989,6 +992,15 @@ public sealed class EntityEffectSystem : EntitySystem
         EnsureComp<PolymorphableComponent>(args.Args.TargetEntity);
         _polymorph.PolymorphEntity(args.Args.TargetEntity, args.Effect.PolymorphPrototype);
     }
+
+    // Omu change for chimeras start
+    private void OnExecuteRevertPolymorph(ref ExecuteEntityEffectEvent<RevertPolymorphEffect> args)
+    {
+        // Make it into a prototype
+        EnsureComp<PolymorphableComponent>(args.Args.TargetEntity);
+        _polymorph.Revert(args.Args.TargetEntity);
+    }
+    // Omu end
 
     private void OnExecuteResetNarcolepsy(ref ExecuteEntityEffectEvent<ResetNarcolepsy> args)
     {
