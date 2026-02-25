@@ -699,6 +699,7 @@ namespace Content.IntegrationTests.Tests
             await pair.CleanReturnAsync();
         }
 
+        [Explicit] // Goobstation, make these manual.
         [Test]
         public async Task NonGameMapsLoadableTest()
         {
