@@ -2207,3 +2207,9 @@ Entries:
         Hood
   id: 277
   time: '2026-02-27T16:04:02.0000000+00:00'
+- author: raincally
+  changes:
+    - type: Remove
+      message: Irelander no longer does 3 genetic
+  id: 278
+  time: '2026-02-27T16:06:04.0000000+00:00'
